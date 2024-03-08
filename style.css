@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --redColor : #ff0000;
+    --b1RedColor : #b11116;
+    --8bRedColor : #8b0304;
+    --68RedColor : #680000;
+    --whiteColor :  #fffafa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: var(--whiteColor);
+}
+
+header {
+    background-color: var(--b1RedColor);
+    height: 10rem;
+    color: var(--whiteColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div img {
+    width: 5rem;
+    border-radius: 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 5rem;
+    gap: 5rem
+}
+
+main div {
+    background-color: var(--b1RedColor);
+    color: var(--whiteColor);
+    padding: 2rem;
+    border-radius: 20px;
+    width: 70%;
+}
+
+input {
+    padding: 0.2rem;
+    margin: 1rem 0;
+}
+
+button {
+    padding: 0.2rem 0.5rem;
+    border: var(--whiteColor) 1px solid;
+    border-radius: 10px;
+    color: var(--whiteColor);
+    background-color: var(--b1RedColor);
+}
